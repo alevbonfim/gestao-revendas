@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*menu*/
+.menu {
+    background-color: blueviolet;
+    height: 50px;
+    display: flex;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.box-logo {
+   margin: auto 0 auto 0;
+}
+
+.box-logo p {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+.navegacao {
+    margin: auto 0 auto 0;
+}
+
+.navegacao ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    font-size: 18px;
+    margin: 0 20px 0 0;
+    
+}
+
+.opcoes {
+    margin: auto 0 auto auto;
+}
+
+.opcoes a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/*cabecalho*/
+.cabecalho {
+    display: flex;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+
+}
+
+.cabecalho .botoes {
+    display: flex;
+    margin-left: auto;
+}
+
+.cabecalho .botoes a {
+    margin: auto 0 auto 0;
+
+}
+
+.cabecalho .botoes a button {
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(0, 143, 0);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.cabecalho .titulo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+/*Formulario*/
+
+.formulario {
+    width: 100%;
+    margin: auto; 
+    box-sizing: border-box;
+}
+
+
+
+.formulario form {
+    border: #ccc 1px solid;
+    border-radius: 8px;
+    padding: 32px 20px;
+    background-color: #fff;
+}
+
+.formulario form .row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.formulario form .row.no-margin {
+    margin-bottom: 0;
+
+}
+
+.formulario form .row .col-4,
+.formulario form .row .col-6,
+.formulario form .row .col-12 {
+    width: 100%;
+    margin-bottom: 16px;
+
+
+}
+
+.formulario form .row .col-4 label,
+.formulario form .row .col-6 label,
+.formulario form .row .col-12 label {
+    display: block;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.campo {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px #ccc solid;
+    background-color: #fff;
+
+
+}
+
+.formulario form .row .col-12 textarea {
+    max-width: 100%;
+    min-width: 100%;
+    height: 60px;
+    min-height: 60px;
+    max-height: 100px;
+    
+
+}
+
+.formulario form .box-botoes {
+    display: flex;
+}
+
+.formulario form .box-botoes .inner-botoes {
+    margin-left: auto;
+}
+
+.formulario form .box-botoes .inner-botoes a {
+    text-decoration: none;
+
+}
+
+.formulario form .box-botoes .inner-botoes a button {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    border: none;
+    font-size: 16px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.formulario form .box-botoes .inner-botoes button {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(1, 79, 157);
+    font-size: 16px;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width: 768px) {
+    .formulario form {
+        width: 50%;
+        margin: auto;
+    }
+
+    .formulario form .row {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .formulario form .row .col-4 {
+        width: 33.33%;    
+
+    }
+
+    .formulario form .row .col-6 {
+        width: 50%;
+    }
+
+}
+
