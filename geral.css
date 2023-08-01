@@ -1,0 +1,31 @@
+
+@media screen and (min-width: 768px) {
+
+    .cabecalho .caixa {
+        width: 80%;
+    }
+
+
+
+
+    .content form {
+        width: calc(80% - 64px);
+        margin: auto;
+    }
+
+    .content form .row {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .content form .row .col-4 {
+        width: 33.33%;    
+
+    }
+
+    .content form .row .col-6 {
+        width: 50%;
+    }
+
+}
+
