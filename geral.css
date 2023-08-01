@@ -1,3 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*menu*/
+.menu {
+    background-color: blueviolet;
+    height: 50px;
+    display: flex;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.box-logo {
+   margin: auto 0 auto 0;
+}
+
+.box-logo p {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+.navegacao {
+    margin: auto 0 auto 0;
+}
+
+.navegacao ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    font-size: 18px;
+    margin: 0 20px 0 0;
+    
+}
+
+.opcoes {
+    margin: auto 0 auto auto;
+}
+
+.opcoes a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/*cabecalho*/
+.cabecalho {
+    
+    margin-top: 20px; 
+    margin-bottom: 20px;
+
+}
+
+.cabecalho .caixa {
+    display: flex;
+    margin: auto;
+}
+
+.cabecalho .botoes {
+    display: flex;
+    margin-left: auto;
+}
+
+.cabecalho .botoes a {
+    margin: auto 0 auto 0;
+
+}
+
+.cabecalho .botoes a button {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 143, 0);
+    border: none;
+    padding: 9px 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.cabecalho .titulo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+/*Formulario*/
+
+.content {
+    width: 100%;
+    margin: auto; 
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -8,24 +127,9 @@
 
 
 
-    .content form {
-        width: calc(80% - 64px);
-        margin: auto;
-    }
-
-    .content form .row {
-        flex-direction: row;
-        gap: 20px;
-    }
-
-    .content form .row .col-4 {
-        width: 33.33%;    
-
-    }
-
-    .content form .row .col-6 {
-        width: 50%;
-    }
+   
 
 }
+
+
 
